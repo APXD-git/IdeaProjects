@@ -1,0 +1,22 @@
+                 -:Algorithm_For_testStringMultipleLines :- 
+-----------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+step 2 : Scanner inn=new Scanner(System.in)
+step 3 : Declare and initialize the varibles a
+step 4 : StringTokenizer str=new StringTokenizer(a)
+step 5 : switch(str.nextToken()){
+step 6 : case "void":
+step 7 : Declare and initialize the varibles s
+step 8 : if(s.matches("[a ,]+"))
+step 9 : System.out.println(true)
+step 10 : break
+step 11 : default:
+step 12 : System.out.println("not working")
+step 13 : }
+step 14 : }
+step 15 : }
+STEP 16 : END

@@ -1,0 +1,64 @@
+                 -:Algorithm_For_MergeSort :- 
+----------------------------------------------------------------
+STEP 1 : int a[]#inventory
+STEP 2 : END
+----------------------------------------------------------------
+Algorithm for input function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT ( ln )
+STEP 4 : a=new int[inn.nextInt()]#inventory
+STEP 5 : PRINT ( ln )
+STEP 6 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 7 : a[i]=inn.nextInt()#inventory
+STEP 8 : END
+----------------------------------------------------------------
+Algorithm for bubbleSort function : 
+
+STEP 1 : START
+STEP 2 : int tem=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : if(a[j]>a[j+1]){#inventory
+STEP 6 : tem =a[j]#inventory
+STEP 7 : a[j]=a[j+1]#inventory
+STEP 8 : a[j+1]=tem#inventory
+STEP 9 : END
+----------------------------------------------------------------
+Algorithm for display function : 
+
+STEP 1 : START
+STEP 2 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 3 : System.out.print(a[i]+" ")#inventory
+STEP 4 : int[] merge(MergeSort A){#inventory
+STEP 5 : int newAr[]=new int[a.length+A.a.length]#inventory
+STEP 6 : int j=-1#inventory
+STEP 7 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 8 : newAr[++j]=a[i]#inventory
+STEP 9 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 10 : newAr[++j]=A.a[i]#inventory
+STEP 11 : return newAr#inventory
+STEP 12 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT ( ln )
+STEP 4 : MergeSort ob1=new MergeSort()#inventory
+STEP 5 : ob1.input()#inventory
+STEP 6 : PRINT ( ln )
+STEP 7 : MergeSort ob2=new MergeSort()#inventory
+STEP 8 : ob2.input()#inventory
+STEP 9 : PRINT ( ln )
+STEP 10 : ob1.display()#inventory
+STEP 11 : ob1.a=ob1.merge(ob2)#inventory
+STEP 12 : PRINT ( ln )
+STEP 13 : ob2.display()#inventory
+STEP 14 : PRINT ( ln )
+STEP 15 : ob1.display()#inventory
+STEP 16 : ob1.bubbleSort()#inventory
+STEP 17 : PRINT ( ln )
+STEP 18 : ob1.display()#inventory
+STEP 19 : END

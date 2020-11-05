@@ -1,0 +1,44 @@
+                 -:Algorithm_For_TheScreen :- 
+----------------------------------------------------------------
+STEP 1 : String str#inventory
+STEP 2 : int cap#inventory
+STEP 3 : int sm#inventory
+STEP 4 : TheScreen(){#inventory
+STEP 5 : str= ""#inventory
+STEP 6 : cap=0#inventory
+STEP 7 : sm=0#inventory
+STEP 8 : END
+----------------------------------------------------------------
+Algorithm for accept function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT  ("Enter the Sentence")
+STEP 4 : str=inn.nextLine()#inventory
+STEP 5 : END
+----------------------------------------------------------------
+Algorithm for recursive_fm function : 
+
+STEP 1 : START
+STEP 2 : if(i<str.length()){#inventory
+STEP 3 : if(Character.isUpperCase(str.charAt(i)))#inventory
+STEP 4 : cap++#inventory
+STEP 5 : else if(Character.isLowerCase(str.charAt(i)))#inventory
+STEP 6 : sm++#inventory
+STEP 7 : recursive_fm(++i)#inventory
+STEP 8 : END
+----------------------------------------------------------------
+Algorithm for display function : 
+
+STEP 1 : START
+STEP 2 : recursive_fm(0)#inventory
+STEP 3 : PRINT  ("Orginal sentence : "+ str+"\nNo. of upper case letters : "+cap+ "\nNo. of lower case : "+ sm)
+STEP 4 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : TheScreen ob=new TheScreen()#inventory
+STEP 3 : ob.accept()#inventory
+STEP 4 : ob.display()#inventory
+STEP 5 : END

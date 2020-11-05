@@ -1,0 +1,41 @@
+                 -:Algorithm_For_Series_2 :- 
+----------------------------------------------------------------
+STEP 1 : int n#inventory
+STEP 2 : int a#inventory
+STEP 3 : int f#inventory
+STEP 4 : double s#inventory
+STEP 5 : double d#inventory
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for computation function : 
+
+STEP 1 : START
+STEP 2 : n=x#inventory
+STEP 3 : a=b#inventory
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : if(i%2==0)#inventory
+STEP 6 : d=d+Math.pow(a,i)#inventory
+STEP 7 : f=1#inventory
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : f=f*j#inventory
+STEP 10 : s=s+f#inventory
+STEP 11 : else#inventory
+STEP 12 : d=d+Math.pow(a,i)#inventory
+STEP 13 : f=1#inventory
+STEP 14 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 15 : f=f*j#inventory
+STEP 16 : s=s-f#inventory
+STEP 17 : s=1+s#inventory
+STEP 18 : System.out.println("The sum of the series is "+s)#inventory
+STEP 19 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Series_2 ob=new Series_2()#inventory
+STEP 3 : Scanner inn=new Scanner(System.in)#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : int x=inn.nextInt()#inventory
+STEP 6 : int b=inn.nextInt()#inventory
+STEP 7 : ob.computation(x,b)#inventory
+STEP 8 : END

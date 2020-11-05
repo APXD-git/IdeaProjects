@@ -1,0 +1,31 @@
+                 -:Algorithm_For_ :- 
+-----------------------------------------------------------------------------------------
+STEP 1 : int a[][]#inventory
+STEP 2 : void sortRow(){#inventory
+STEP 3 : Declare and initialize the variable  temp  with  :USER ASSISTANCE REQURIED :     AT LINE NO.  :   13
+STEP 4 : for(int i=0#inventory
+STEP 5 : for(int j=0#inventory
+STEP 6 : for(int k=0#inventory
+STEP 7 : if(a[i][k]<a[i][k+1]){#inventory
+STEP 8 : temp=a[i][k]#inventory
+STEP 9 : a[i][k]=a[i][k+1]#inventory
+STEP 10 : a[i][k+1]=temp#inventory
+STEP 11 : void display(){#inventory
+STEP 12 : System.out.println("After sorting : ")#inventory
+STEP 13 : for(int i=0#inventory
+STEP 14 : for(int j=0#inventory
+STEP 15 : System.out.print(a[i][j]+" ")#inventory
+STEP 16 : System.out.println()#inventory
+STEP 17 : public static void main(String [] args){#inventory
+STEP 18 : Scanner inn=new Scanner(System.in)#inventory
+STEP 19 : SortRow ob=new SortRow()#inventory
+STEP 20 : System.out.println("ENTER THE NUMBER OF ROW AND COLUMN")#inventory
+STEP 21 : int n=inn.nextInt()#inventory
+STEP 22 : ob.a=new int[n][n]#inventory
+STEP 23 : System.out.println("ENTER THE ELEMENTS ")#inventory
+STEP 24 : for(int i=0#inventory
+STEP 25 : for(int j=0#inventory
+STEP 26 : ob.a[i][j]=inn.nextInt()#inventory
+STEP 27 : ob.sortRow()#inventory
+STEP 28 : ob.display()#inventory
+STEP 29 : END

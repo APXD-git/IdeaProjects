@@ -1,0 +1,24 @@
+                 -:Algorithm_For_Series :- 
+----------------------------------------------------------------
+STEP 1 : int n#inventory
+STEP 2 : double s#inventory
+STEP 3 : END
+----------------------------------------------------------------
+Algorithm for calculation function : 
+
+STEP 1 : START
+STEP 2 : n=x#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : s=s+(i*(i+1))/(i+(i+1))#inventory
+STEP 5 : System.out.println("The sum of the series is "+s)#inventory
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Series ob=new Series()#inventory
+STEP 3 : Scanner sc=new Scanner(System.in)#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : int x=sc.nextInt()#inventory
+STEP 6 : ob.calculation(x)#inventory
+STEP 7 : END

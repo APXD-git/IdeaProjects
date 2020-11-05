@@ -1,0 +1,60 @@
+                 -:Algorithm_For_Combine :- 
+----------------------------------------------------------------
+STEP 1 : int com[]#inventory
+STEP 2 : int size#inventory
+STEP 3 : Combine(int nn){#inventory
+STEP 4 : com=new int[size=nn]#inventory
+STEP 5 : END
+----------------------------------------------------------------
+Algorithm for inputArray function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT  ("Enter the array elements")
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : com[i]=inn.nextInt()#inventory
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for sort function : 
+
+STEP 1 : START
+STEP 2 : int temp=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : if(com[i]>com[j]){#inventory
+STEP 6 : temp=com[i]#inventory
+STEP 7 : com[i]=com[j]#inventory
+STEP 8 : com[j]=temp#inventory
+STEP 9 : END
+----------------------------------------------------------------
+Algorithm for mix function : 
+
+STEP 1 : START
+STEP 2 : int x=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : com[x++]=a.com[i]#inventory
+STEP 5 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 6 : com[x++]=b.com[i]#inventory
+STEP 7 : void display (){#inventory
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : PRINT  (com[i]    +" ")
+STEP 10 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT  ("Enter the size of array 1")
+STEP 4 : Combine ob=new Combine(inn.nextInt())#inventory
+STEP 5 : PRINT  ("Enter the size of array 2")
+STEP 6 : Combine ob2=new Combine(inn.nextInt())#inventory
+STEP 7 : Combine ob3=new Combine(ob.size+ob2.size)#inventory
+STEP 8 : PRINT  ("ARRAY 1")
+STEP 9 : ob.inputArray()#inventory
+STEP 10 : PRINT  ("ARRAY 2")
+STEP 11 : ob2.inputArray()#inventory
+STEP 12 : ob3.mix(ob,ob2)#inventory
+STEP 13 : ob3.sort()#inventory
+STEP 14 : PRINT  ("MERGED ARRAY AFTER SORTING ")
+STEP 15 : ob3.display()#inventory
+STEP 16 : END

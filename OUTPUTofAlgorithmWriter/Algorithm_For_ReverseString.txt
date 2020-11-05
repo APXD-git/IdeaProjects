@@ -1,0 +1,34 @@
+                 -:Algorithm_For_ReverseString :- 
+----------------------------------------------------------------
+STEP 1 : String s#inventory
+STEP 2 : String word[]#inventory
+STEP 3 : END
+----------------------------------------------------------------
+Algorithm for omitSpecialChar function : 
+
+STEP 1 : START
+STEP 2 : StringTokenizer st=new StringTokenizer(s,",.?\" \'!")#inventory
+STEP 3 : word=new String[st.countTokens()]#inventory
+STEP 4 : int i=0#inventory
+STEP 5 : while(st.hasMoreTokens()){#inventory
+STEP 6 : word[i++]=st.nextToken()#inventory
+STEP 7 : END
+----------------------------------------------------------------
+Algorithm for displayReverse function : 
+
+STEP 1 : START
+STEP 2 : PRINT ( ln )
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : System.out.print(word[i]+" " )#inventory
+STEP 5 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : ReverseString ob=new ReverseString()#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : ob.s=inn.nextLine()#inventory
+STEP 6 : ob.omitSpecialChar()#inventory
+STEP 7 : ob.displayReverse()#inventory
+STEP 8 : END

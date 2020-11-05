@@ -1,0 +1,39 @@
+                 -:Algorithm_For_Ifelseif :- 
+----------------------------------------------------------------
+STEP 1 : double n#inventory
+STEP 2 : double d#inventory
+STEP 3 : double amt#inventory
+STEP 4 : END
+----------------------------------------------------------------
+Algorithm for calculation function : 
+
+STEP 1 : START
+STEP 2 : n=x#inventory
+STEP 3 : PRINT ( ln )
+STEP 4 : if(n<=2000)#inventory
+STEP 5 : d=n*5.0/100#inventory
+STEP 6 : PRINT ( ln )
+STEP 7 : else if(n>=2001 && n<=5000)#inventory
+STEP 8 : d=n*10.0/100#inventory
+STEP 9 : PRINT ( ln )
+STEP 10 : else if(n>=5001 && n<=10000)#inventory
+STEP 11 : d=n*15.0/100#inventory
+STEP 12 : PRINT ( ln )
+STEP 13 : else#inventory
+STEP 14 : d=n*20.0/100#inventory
+STEP 15 : PRINT ( ln )
+STEP 16 : amt=n-d#inventory
+STEP 17 : System.out.println("Amount of purchase is = "+n)#inventory
+STEP 18 : System.out.println("Amount of discount is = "+d)#inventory
+STEP 19 : System.out.println("Amount to be paid is = "+amt)#inventory
+STEP 20 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Ifelseif ob=new Ifelseif()#inventory
+STEP 3 : Scanner inn=new Scanner(System.in)#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : int x=inn.nextInt()#inventory
+STEP 6 : ob.calculation(x)#inventory
+STEP 7 : END

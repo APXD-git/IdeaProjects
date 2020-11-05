@@ -1,0 +1,79 @@
+                 -:Algorithm_For_Arm_Armlike :- 
+----------------------------------------------------------------
+STEP 1 : int n#inventory
+STEP 2 : END
+----------------------------------------------------------------
+Algorithm for isArm function : 
+
+STEP 1 : START
+STEP 2 : int b=n,e=0,s=0#inventory
+STEP 3 : while(n>0){#inventory
+STEP 4 : e=n%10#inventory
+STEP 5 : s+= (e*e*e)#inventory
+STEP 6 : n/=10#inventory
+STEP 7 : System.out.println(s==b?"It is armstrong number":"it is not a armstrong number")#inventory
+STEP 8 : genArm()#inventory
+STEP 9 : END
+----------------------------------------------------------------
+Algorithm for isArmLike function : 
+
+STEP 1 : START
+STEP 2 : int b=n,e=0,s=0#inventory
+STEP 3 : while(n>0){#inventory
+STEP 4 : if(b>=100000 && b<=999999){#inventory
+STEP 5 : e=n%100#inventory
+STEP 6 : n/=100#inventory
+STEP 7 : else{#inventory
+STEP 8 : e=n%1000#inventory
+STEP 9 : n/=1000#inventory
+STEP 10 : s+=(e*e*e)#inventory
+STEP 11 : System.out.println((b==s?"It is a armstrongLike number":"It is not a armstrongLike number"))#inventory
+STEP 12 : genArmLike()#inventory
+STEP 13 : END
+----------------------------------------------------------------
+Algorithm for genArm function : 
+
+STEP 1 : START
+STEP 2 : int e=0,b=0,s=0#inventory
+STEP 3 : PRINT ( ln )
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : b=i#inventory
+STEP 6 : while(i>0){#inventory
+STEP 7 : e=i%10#inventory
+STEP 8 : i/=10#inventory
+STEP 9 : s+=(e*e*e)#inventory
+STEP 10 : System.out.print(s==b? b+ " ": "")#inventory
+STEP 11 : s=0#inventory
+STEP 12 : i=b#inventory
+STEP 13 : END
+----------------------------------------------------------------
+Algorithm for genArmLike function : 
+
+STEP 1 : START
+STEP 2 : int e=0,b=0,s=0#inventory
+STEP 3 : PRINT ( ln )
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : b=i#inventory
+STEP 6 : while(i>0){#inventory
+STEP 7 : e=i%100#inventory
+STEP 8 : i/=100#inventory
+STEP 9 : s+=(e*e*e)#inventory
+STEP 10 : System.out.print(s==b? b + " ": "")#inventory
+STEP 11 : s=0#inventory
+STEP 12 : i=b#inventory
+STEP 13 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : Arm_Armlike ob=new Arm_Armlike()#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : ob.n=inn.nextInt()#inventory
+STEP 6 : if(ob.n>=100 && ob.n<=999)#inventory
+STEP 7 : ob.isArm()#inventory
+STEP 8 : else if( (ob.n>=100000 && ob.n<=999999) || (ob.n>=100000000 && ob.n<=999999999))#inventory
+STEP 9 : ob.isArmLike()#inventory
+STEP 10 : else#inventory
+STEP 11 : PRINT ( ln )
+STEP 12 : END

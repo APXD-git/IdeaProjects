@@ -1,0 +1,127 @@
+                 -:Algorithm_For_testStringMultipleLines :- 
+-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : String a=inn.nextLine()#inventory
+STEP 4 : StringTokenizer str=new StringTokenizer(a)#inventory
+STEP 5 : Declare the variables a
+STEP 6 : Declare the variables aaa
+STEP 7 : Declare the variables abd
+STEP 8 : switch(str.nextToken()){#inventory
+STEP 9 : Call  c  function : USER ASSISTANCE REQUIRED : 
+                 a=abc()
+STEP 10 : Declare and initialize the variable  su  with  :USER ASSISTANCE REQURIED :     AT LINE NO.  :   16
+STEP 11 : int a=abc()#inventory
+STEP 12 :  :USER ASSISTANCE REQUIRED   :  AT LINE NO.   : 18 :   LINE       :
+                  a=a+a
+STEP 13 :  :USER ASSISTANCE REQUIRED   :  AT LINE NO.   : 19 :   LINE       :
+                  asad=saddsa-dsasad
+STEP 14 : case "void":#inventory
+STEP 15 : String s=(str.nextToken())#inventory
+STEP 16 : if(s.matches("[a ,]+"))#inventory
+STEP 17 : System.out.println(true)#inventory
+STEP 18 : break#inventory
+STEP 19 : default:#inventory
+STEP 20 : System.out.println("not working")#inventory
+STEP 21 : END
+                 -:Algorithm_For_testStringMultipleLines :- 
+-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : String a=inn.nextLine()#inventory
+STEP 4 : StringTokenizer str=new StringTokenizer(a)#inventory
+STEP 5 : Declare the variables a
+STEP 6 : Declare the variables aaa
+STEP 7 : Declare the variables abd
+STEP 8 : switch(str.nextToken()){#inventory
+STEP 9 : Call  c  function : USER ASSISTANCE REQUIRED : 
+                 a=abc()
+STEP 10 : Declare and initialize the variable  su  with  :USER ASSISTANCE REQURIED :     AT LINE NO.  :   16
+STEP 11 : int a=abc()#inventory
+STEP 12 :  :USER ASSISTANCE REQUIRED   :  AT LINE NO.   : 18 :   LINE       :
+                  a=a+a
+STEP 13 :  :USER ASSISTANCE REQUIRED   :  AT LINE NO.   : 19 :   LINE       :
+                  asad=saddsa-dsasad
+STEP 14 : case "void":#inventory
+STEP 15 : String s=(str.nextToken())#inventory
+STEP 16 : if(s.matches("[a ,]+"))#inventory
+STEP 17 : System.out.println(true)#inventory
+STEP 18 : break#inventory
+STEP 19 : default:#inventory
+STEP 20 : System.out.println("not working")#inventory
+STEP 21 : END
+                 -:Algorithm_For_testStringMultipleLines :- 
+-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : String a=inn.nextLine()#inventory
+STEP 4 : StringTokenizer str=new StringTokenizer(a)#inventory
+STEP 5 : Declare the variables a
+STEP 6 : Declare the variables aaa
+STEP 7 : Declare the variables abd
+STEP 8 : switch(str.nextToken()){#inventory
+STEP 9 : Call  c  function : USER ASSISTANCE REQUIRED : 
+                 a=abc()
+STEP 10 : Declare and initialize the variable  su  with  :USER ASSISTANCE REQURIED :     AT LINE NO.  :   16
+STEP 11 : int a=abc()#inventory
+STEP 12 :  :USER ASSISTANCE REQUIRED   :  AT LINE NO.   : 18 :   LINE       :
+                  a=a+a
+STEP 13 :  :USER ASSISTANCE REQUIRED   :  AT LINE NO.   : 19 :   LINE       :
+                  asad=saddsa-dsasad
+STEP 14 : case "void":#inventory
+STEP 15 : String s=(str.nextToken())#inventory
+STEP 16 : if(s.matches("[a ,]+"))#inventory
+STEP 17 : System.out.println(true)#inventory
+STEP 18 : break#inventory
+STEP 19 : default:#inventory
+STEP 20 : System.out.println("not working")#inventory
+STEP 21 : END
+                 -:Algorithm_For_testStringMultipleLines :- 
+-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : switch(str.nextToken()){#inventory
+STEP 3 : case "void":#inventory
+STEP 4 : if(s.matches("[a ,]+"))#inventory
+STEP 5 : default:#inventory
+STEP 6 : END
+                 -:Algorithm_For_testStringMultipleLines :- 
+-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : String a=inn.nextLine()#inventory
+STEP 4 : StringTokenizer str=new StringTokenizer(a)#inventory
+STEP 5 : Declare the variables a
+               aaa 
+               abd 
+STEP 6 : switch(str.nextToken()){#inventory
+STEP 7 : Call  c  function : USER ASSISTANCE REQUIRED : 
+                 a=abc()
+STEP 8 : Declare and initialize the variable  su  with  :USER ASSISTANCE REQURIED :     AT LINE NO.  :   16
+STEP 9 : int a=abc()#inventory
+STEP 10 :  :USER ASSISTANCE REQUIRED   :  AT LINE NO.   : 18 :   LINE       :
+                  a=a+a
+STEP 11 :  :USER ASSISTANCE REQUIRED   :  AT LINE NO.   : 19 :   LINE       :
+                  asad=saddsa-dsasad
+STEP 12 : case "void":#inventory
+STEP 13 : String s=(str.nextToken())#inventory
+STEP 14 : if(s.matches("[a ,]+"))#inventory
+STEP 15 : System.out.println(true)#inventory
+STEP 16 : break#inventory
+STEP 17 : default:#inventory
+STEP 18 : System.out.println("not working")#inventory
+STEP 19 : END

@@ -1,0 +1,100 @@
+                 -:Algorithm_For_Saddle :- 
+----------------------------------------------------------------
+STEP 1 : int a[][]#inventory
+STEP 2 : END
+----------------------------------------------------------------
+Algorithm for saddle function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT ( ln )
+STEP 4 : int aa=inn.nextInt()#inventory
+STEP 5 : a=new int[aa][aa]#inventory
+STEP 6 : PRINT ( ln )
+STEP 7 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : a[i][j]=inn.nextInt()#inventory
+STEP 10 : original()#inventory
+STEP 11 : int r=0#inventory
+STEP 12 : int f=0#inventory
+STEP 13 : int n=0#inventory
+STEP 14 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 15 : n=a[i][0]#inventory
+STEP 16 : f=0#inventory
+STEP 17 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 18 : if(n>a[i][j])#inventory
+STEP 19 : n=a[i][j]#inventory
+STEP 20 : r=j#inventory
+STEP 21 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 22 : if(n<a[j][r]){#inventory
+STEP 23 : f=1#inventory
+STEP 24 : if(f==0)#inventory
+STEP 25 : break#inventory
+STEP 26 : System.out.println(f==0? "The saddle point of the matrix is :-   "+n: "No saddle point")#inventory
+STEP 27 : END
+----------------------------------------------------------------
+Algorithm for original function : 
+
+STEP 1 : START
+STEP 2 : PRINT ( ln )
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : System.out.print(a[i][j]+" ")#inventory
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Saddle ob=new Saddle()#inventory
+STEP 3 : ob.saddle()#inventory
+STEP 4 : END
+                 -:Algorithm_For_Saddle :- 
+----------------------------------------------------------------
+STEP 1 : int a[][]#inventory
+STEP 2 : END
+----------------------------------------------------------------
+Algorithm for saddle function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT ( ln )
+STEP 4 : int aa=inn.nextInt()#inventory
+STEP 5 : a=new int[aa][aa]#inventory
+STEP 6 : PRINT ( ln )
+STEP 7 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : a[i][j]=inn.nextInt()#inventory
+STEP 10 : original()#inventory
+STEP 11 : int r=0#inventory
+STEP 12 : int f=0#inventory
+STEP 13 : int n=0#inventory
+STEP 14 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 15 : n=a[i][0]#inventory
+STEP 16 : f=0#inventory
+STEP 17 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 18 : if(n>a[i][j])#inventory
+STEP 19 : n=a[i][j]#inventory
+STEP 20 : r=j#inventory
+STEP 21 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 22 : if(n<a[j][r]){#inventory
+STEP 23 : f=1#inventory
+STEP 24 : if(f==0)#inventory
+STEP 25 : break#inventory
+STEP 26 : System.out.println(f==0? "The saddle point of the matrix is :-   "+n: "No saddle point")#inventory
+STEP 27 : END
+----------------------------------------------------------------
+Algorithm for original function : 
+
+STEP 1 : START
+STEP 2 : PRINT ( ln )
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : System.out.print(a[i][j]+" ")#inventory
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Saddle ob=new Saddle()#inventory
+STEP 3 : ob.saddle()#inventory
+STEP 4 : END

@@ -1,0 +1,50 @@
+                 -:Algorithm_For_Prime20 :- 
+----------------------------------------------------------------
+STEP 1 : int a[]#inventory
+STEP 2 : END
+----------------------------------------------------------------
+Algorithm for primeCheck function : 
+
+STEP 1 : START
+STEP 2 : int c=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : if(n%i==0)#inventory
+STEP 5 : c++#inventory
+STEP 6 : return c==2?true:false#inventory
+STEP 7 : END
+----------------------------------------------------------------
+Algorithm for insert function : 
+
+STEP 1 : START
+STEP 2 : int i=a[0]+1#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : if(primeCheck(i)){#inventory
+STEP 5 : a[c]=i#inventory
+STEP 6 : c++#inventory
+STEP 7 : i++#inventory
+STEP 8 : END
+----------------------------------------------------------------
+Algorithm for display function : 
+
+STEP 1 : START
+STEP 2 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 3 : System.out.print(a[i]+" ")#inventory
+STEP 4 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : Prime20 ob=new Prime20()#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : int n=inn.nextInt(),l#inventory
+STEP 6 : if(ob.primeCheck(n))#inventory
+STEP 7 : l=20#inventory
+STEP 8 : else#inventory
+STEP 9 : l=21#inventory
+STEP 10 : ob.a=new int[l]#inventory
+STEP 11 : ob.a[0]=n#inventory
+STEP 12 : ob.insert(l-1)#inventory
+STEP 13 : PRINT ( ln )
+STEP 14 : ob.display()#inventory
+STEP 15 : END

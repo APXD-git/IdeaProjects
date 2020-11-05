@@ -1,0 +1,48 @@
+                 -:Algorithm_For_Stack :- 
+----------------------------------------------------------------
+STEP 1 : String stack[]#inventory
+STEP 2 : int sp#inventory
+STEP 3 : END
+----------------------------------------------------------------
+Algorithm for push function : 
+
+STEP 1 : START
+STEP 2 : if(sp==stack.length-1){#inventory
+STEP 3 : PRINT  ("STACK OVERFLOW")
+STEP 4 : else{#inventory
+STEP 5 : stack[++sp]=item#inventory
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for pop function : 
+
+STEP 1 : START
+STEP 2 : if(sp==-1){#inventory
+STEP 3 : PRINT  ("STACK UNDERFLOW")
+STEP 4 : else#inventory
+STEP 5 : PRINT  ("The poped item is "+stack[sp--])
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for display function : 
+
+STEP 1 : START
+STEP 2 : if(sp==stack.length-1)#inventory
+STEP 3 : PRINT  ("STACK IS EMPTY!")
+STEP 4 : else#inventory
+STEP 5 : PRINT  ("THE REMAINING ELEMENTS IN THE STACK ARE :")
+STEP 6 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 7 : PRINT  (stack[i]+" ")
+STEP 8 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Stack ob=new Stack()#inventory
+STEP 3 : ob.stack=new String[10]#inventory
+STEP 4 : ob.sp=-1#inventory
+STEP 5 : ob.push("CAT")#inventory
+STEP 6 : ob.push("DOG")#inventory
+STEP 7 : ob.push("TIGER")#inventory
+STEP 8 : ob.pop()#inventory
+STEP 9 : ob.pop()#inventory
+STEP 10 : ob.display()#inventory
+STEP 11 : END

@@ -1,0 +1,77 @@
+                 -:Algorithm_For_Queue :- 
+----------------------------------------------------------------
+STEP 1 : Scanner sc=new Scanner(System.in)#inventory
+STEP 2 : int queue[]#inventory
+STEP 3 : int capacity#inventory
+STEP 4 : int front#inventory
+STEP 5 : int rear#inventory
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for PrintJob function : 
+
+STEP 1 : START
+STEP 2 : capacity=20#inventory
+STEP 3 : front=-1#inventory
+STEP 4 : rear=-1#inventory
+STEP 5 : END
+----------------------------------------------------------------
+Algorithm for createJob function : 
+
+STEP 1 : START
+STEP 2 : queue=new int[capacity]#inventory
+STEP 3 : END
+----------------------------------------------------------------
+Algorithm for addJob function : 
+
+STEP 1 : START
+STEP 2 : if(rear==capacity-1)#inventory
+STEP 3 : PRINT  ("QUEUE OVERFLOW")
+STEP 4 : else#inventory
+STEP 5 : if(front==-1 && rear==-1)#inventory
+STEP 6 : front=front+1#inventory
+STEP 7 : rear=rear+1#inventory
+STEP 8 : else#inventory
+STEP 9 : rear=rear+1#inventory
+STEP 10 : queue[rear]=item#inventory
+STEP 11 : END
+----------------------------------------------------------------
+Algorithm for removeJob function : 
+
+STEP 1 : START
+STEP 2 : if(front==-1&&rear==-1)#inventory
+STEP 3 : PRINT  ("QUEUE UNDERFLOW")
+STEP 4 : else#inventory
+STEP 5 : PRINT  ("The deleted element is "+queue[front])
+STEP 6 : if(front==rear)#inventory
+STEP 7 : front=-1#inventory
+STEP 8 : rear=-1#inventory
+STEP 9 : else#inventory
+STEP 10 : front=front+1#inventory
+STEP 11 : END
+----------------------------------------------------------------
+Algorithm for display function : 
+
+STEP 1 : START
+STEP 2 : if(front==-1&&rear==-1)#inventory
+STEP 3 : PRINT  ("QUEUE IS EMPTY!")
+STEP 4 : else#inventory
+STEP 5 : PRINT  ("THE REMAINING ELEMENTS IN THE QUEUE ARE :")
+STEP 6 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 7 : PRINT  (queue[i]+" ")
+STEP 8 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Queue ob=new Queue()#inventory
+STEP 3 : ob.PrintJob()#inventory
+STEP 4 : ob.createJob()#inventory
+STEP 5 : ob.addJob(121)#inventory
+STEP 6 : ob.addJob(23)#inventory
+STEP 7 : ob.addJob(46)#inventory
+STEP 8 : ob.addJob(565)#inventory
+STEP 9 : ob.addJob(6234)#inventory
+STEP 10 : ob.removeJob()#inventory
+STEP 11 : ob.removeJob()#inventory
+STEP 12 : ob.display()#inventory
+STEP 13 : END

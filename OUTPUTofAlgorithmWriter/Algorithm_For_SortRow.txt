@@ -1,0 +1,128 @@
+
+                 -:Algorithm_For_SortRow :- 
+-----------------------------------------------------------------------------------------
+STEP 1 : int a[][]#inventory
+STEP 2 : END
+------------------------------------------------------------------------------------------
+Algorithm for sortRow function : 
+
+STEP 1 : START
+STEP 2 : int temp=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 6 : if(a[i][k]<a[i][k+1]){#inventory
+STEP 7 : temp=a[i][k]#inventory
+STEP 8 : a[i][k]=a[i][k+1]#inventory
+STEP 9 : a[i][k+1]=temp#inventory
+STEP 10 : END
+------------------------------------------------------------------------------------------
+Algorithm for display function : 
+
+STEP 1 : START
+STEP 2 : PRINT ( After sorting :  )
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : System.out.print(a[i][j]+" ")#inventory
+STEP 6 : System.out.println()#inventory
+STEP 7 : END
+------------------------------------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : SortRow ob=new SortRow()#inventory
+STEP 4 : PRINT ( ENTER THE NUMBER OF ROW AND COLUMN )
+STEP 5 : int n=inn.nextInt()#inventory
+STEP 6 : ob.a=new int[n][n]#inventory
+STEP 7 : PRINT ( ENTER THE ELEMENTS  )
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 10 : ob.a[i][j]=inn.nextInt()#inventory
+STEP 11 : ob.sortRow()#inventory
+STEP 12 : ob.display()#inventory
+STEP 13 : END
+                 -:Algorithm_For_SortRow :- 
+-----------------------------------------------------------------------------------------
+STEP 1 : int a[][]#inventory
+STEP 2 : END
+------------------------------------------------------------------------------------------
+Algorithm for sortRow function : 
+
+STEP 1 : START
+STEP 2 : int temp=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 6 : if(a[i][k]<a[i][k+1]){#inventory
+STEP 7 : temp=a[i][k]#inventory
+STEP 8 : a[i][k]=a[i][k+1]#inventory
+STEP 9 : a[i][k+1]=temp#inventory
+STEP 10 : END
+------------------------------------------------------------------------------------------
+Algorithm for display function : 
+
+STEP 1 : START
+STEP 2 : PRINT ( ln )
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : System.out.print(a[i][j]+" ")#inventory
+STEP 6 : END
+------------------------------------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : SortRow ob=new SortRow()#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : int n=inn.nextInt()#inventory
+STEP 6 : ob.a=new int[n][n]#inventory
+STEP 7 : PRINT ( ln )
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 10 : ob.a[i][j]=inn.nextInt()#inventory
+STEP 11 : ob.sortRow()#inventory
+STEP 12 : ob.display()#inventory
+STEP 13 : END
+                 -:Algorithm_For_SortRow :- 
+-----------------------------------------------------------------------------------------
+STEP 1 : int a[][]#inventory
+STEP 2 : END
+------------------------------------------------------------------------------------------
+Algorithm for sortRow function : 
+
+STEP 1 : START
+STEP 2 : int temp=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 6 : if(a[i][k]<a[i][k+1]){#inventory
+STEP 7 : temp=a[i][k]#inventory
+STEP 8 : a[i][k]=a[i][k+1]#inventory
+STEP 9 : a[i][k+1]=temp#inventory
+STEP 10 : END
+------------------------------------------------------------------------------------------
+Algorithm for display function : 
+
+STEP 1 : START
+STEP 2 : PRINT ( After sorting :  )
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : System.out.print(a[i][j]+" ")#inventory
+STEP 6 : END
+------------------------------------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : SortRow ob=new SortRow()#inventory
+STEP 4 : PRINT ( ENTER THE NUMBER OF ROW AND COLUMN )
+STEP 5 : int n=inn.nextInt()#inventory
+STEP 6 : ob.a=new int[n][n]#inventory
+STEP 7 : PRINT ( ENTER THE ELEMENTS  )
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 10 : ob.a[i][j]=inn.nextInt()#inventory
+STEP 11 : ob.sortRow()#inventory
+STEP 12 : ob.display()#inventory
+STEP 13 : END

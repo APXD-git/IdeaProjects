@@ -1,0 +1,107 @@
+                 -:Algorithm_For_Pattern :- 
+----------------------------------------------------------------
+----------------------------------------------------------------
+Algorithm for pattern1 function : 
+
+STEP 1 : START
+STEP 2 : int f=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : System.out.print(" ")#inventory
+STEP 6 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 7 : System.out.print(i+ " ")#inventory
+STEP 8 : if(i==9){#inventory
+STEP 9 : f=1#inventory
+STEP 10 : i=f==0?i+2:i-2#inventory
+STEP 11 : END
+----------------------------------------------------------------
+Algorithm for pattern2 function : 
+
+STEP 1 : START
+STEP 2 : int f=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : System.out.print("  ")#inventory
+STEP 6 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 7 : System.out.print(j+" " )#inventory
+STEP 8 : if(i==5){#inventory
+STEP 9 : f=1#inventory
+STEP 10 : i=f==0?i+1:i-1#inventory
+STEP 11 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Pattern ob=new Pattern()#inventory
+STEP 3 : Scanner sc=new Scanner(System.in)#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : PRINT ( ln )
+STEP 6 : PRINT ( ln )
+STEP 7 : int c=sc.nextInt()#inventory
+STEP 8 : switch(c)#inventory
+STEP 9 : case 1:#inventory
+STEP 10 : ob.pattern1()#inventory
+STEP 11 : break#inventory
+STEP 12 : case 2:#inventory
+STEP 13 : ob.pattern2()#inventory
+STEP 14 : break#inventory
+STEP 15 : default:#inventory
+STEP 16 : PRINT ( ln )
+STEP 17 : END
+                 -:Algorithm_For_Pattern :- 
+----------------------------------------------------------------
+----------------------------------------------------------------
+Algorithm for pattern1 function : 
+
+STEP 1 : START
+STEP 2 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : PRINT  (" ")
+STEP 5 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 6 : PRINT  (i+ " ")
+STEP 7 : i=i+2#inventory
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 10 : PRINT  (" ")
+STEP 11 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 12 : PRINT  (i+ " ")
+STEP 13 : i=i-2#inventory
+STEP 14 : END
+----------------------------------------------------------------
+Algorithm for pattern2 function : 
+
+STEP 1 : START
+STEP 2 : int f=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : PRINT  ("  ")
+STEP 6 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 7 : PRINT  (j+" " )
+STEP 8 : i=i+1#inventory
+STEP 9 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 10 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 11 : PRINT  ("  ")
+STEP 12 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 13 : PRINT  (j+" " )
+STEP 14 : i=i-1#inventory
+STEP 15 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Pattern ob=new Pattern()#inventory
+STEP 3 : Scanner sc=new Scanner(System.in)#inventory
+STEP 4 : PRINT  ("enter 1 to print the first pattern")
+STEP 5 : PRINT  ("enter 2 to print the Second pattern")
+STEP 6 : PRINT  ("enter your choice")
+STEP 7 : int c=sc.nextInt()#inventory
+STEP 8 : switch(c)#inventory
+STEP 9 : case 1:#inventory
+STEP 10 : ob.pattern1()#inventory
+STEP 11 : break#inventory
+STEP 12 : case 2:#inventory
+STEP 13 : ob.pattern2()#inventory
+STEP 14 : break#inventory
+STEP 15 : default:#inventory
+STEP 16 : PRINT  ("WRONG CHOICE")
+STEP 17 : END

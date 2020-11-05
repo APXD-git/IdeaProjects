@@ -1,0 +1,52 @@
+                 -:Algorithm_For_Piglatin :-
+----------------------------------------------------------------
+STEP 1 : String s#inventory
+STEP 2 : END
+----------------------------------------------------------------
+Algorithm for piglatinConverter function :
+
+STEP 1 : START
+STEP 2 : char vowels[]={'a','e','i','o','u'}#inventory
+STEP 3 : StringTokenizer str=new StringTokenizer(s,". ")#inventory
+STEP 4 : String word[]=new String[str.countTokens()]#inventory
+STEP 5 : int ii=0#inventory
+STEP 6 : int index=0#inventory
+STEP 7 : while(str.hasMoreTokens()){#inventory
+STEP 8 : word[ii++]=str.nextToken()#inventory
+STEP 9 : s=""#inventory
+STEP 10 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 11 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 12 : index=findChar(word[i],j)#inventory
+STEP 13 : if(index!=0){#inventory
+STEP 14 : word[i]= word[i].substring(index)+ word[i].substring(0,index)#inventory
+STEP 15 : word[i]+="ay"#inventory
+STEP 16 : s+=word[i]+" "#inventory
+STEP 17 : display()#inventory
+STEP 18 : END
+----------------------------------------------------------------
+Algorithm for findChar function :
+
+STEP 1 : START
+STEP 2 : int in=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : if(word.charAt(k)==a){#inventory
+STEP 5 : in=k#inventory
+STEP 6 : break#inventory
+STEP 7 : return in#inventory
+STEP 8 : END
+----------------------------------------------------------------
+Algorithm for display function :
+
+STEP 1 : START
+STEP 2 : PRINT  ("The converted sentence in Pig latin is  : "+ s)
+STEP 3 : END
+----------------------------------------------------------------
+Algorithm for main function :
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT  ("Enter the sentence : ")
+STEP 4 : Piglatin ob=new Piglatin()#inventory
+STEP 5 : ob.s=inn.nextLine()#inventory
+STEP 6 : ob.piglatinConverter()#inventory
+STEP 7 : END

@@ -1,0 +1,31 @@
+                 -:Algorithm_For_FiboString :- 
+----------------------------------------------------------------
+STEP 1 : int limit#inventory
+STEP 2 : END
+----------------------------------------------------------------
+Algorithm for input function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT  ("Enter the limit of the series")
+STEP 4 : limit=inn.nextInt()#inventory
+STEP 5 : END
+----------------------------------------------------------------
+Algorithm for printFibo function : 
+
+STEP 1 : START
+STEP 2 : String a="a",b="b",c=""#inventory
+STEP 3 : PRINT  ("Output: "+"\n "+a+" "+b+" ")
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : PRINT  ((c=(b+a))+" ")
+STEP 6 : a=b#inventory
+STEP 7 : b=c#inventory
+STEP 8 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : FiboString ob=new FiboString()#inventory
+STEP 3 : ob.input()#inventory
+STEP 4 : ob.printFibo()#inventory
+STEP 5 : END

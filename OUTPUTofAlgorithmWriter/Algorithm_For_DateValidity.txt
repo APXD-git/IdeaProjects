@@ -1,0 +1,51 @@
+                 -:Algorithm_For_DateValidity :- 
+----------------------------------------------------------------
+STEP 1 : String date#inventory
+STEP 2 : int n#inventory
+STEP 3 : int f#inventory
+STEP 4 : END
+----------------------------------------------------------------
+Algorithm for checkDate function : 
+
+STEP 1 : START
+STEP 2 : int b=n#inventory
+STEP 3 : int year=n%100#inventory
+STEP 4 : int month=n%100#inventory
+STEP 5 : int days=n%100#inventory
+STEP 6 : int dayM[]={31,28,31,30,31,30,31,31,30,31,30,31}#inventory
+STEP 7 : String monthS[]={"January", "February","March","April","May","June","July",#inventory
+STEP 8 : "August","September","October","November","December"}#inventory
+STEP 9 : if(month<=12)#inventory
+STEP 10 : if(year%4==0 && monthS[month-1]=="February")#inventory
+STEP 11 : if(days<=29)#inventory
+STEP 12 : PRINT  ("VALID DATE")
+STEP 13 : else#inventory
+STEP 14 : f=1#inventory
+STEP 15 : else if(days<=dayM[month-1])#inventory
+STEP 16 : PRINT  ("VALID DATE")
+STEP 17 : else#inventory
+STEP 18 : f=1#inventory
+STEP 19 : else#inventory
+STEP 20 : f=1#inventory
+STEP 21 : if(f==0)#inventory
+STEP 22 : PRINT  (days+" "+monthS[month-1]+", "+ year)
+STEP 23 : else#inventory
+STEP 24 : PRINT  ("INVAILD DATE")
+STEP 25 : END
+----------------------------------------------------------------
+Algorithm for input function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT  ("Enter the date in DD/MM/YY format!")
+STEP 4 : date=inn.nextLine().replaceAll("/","")#inventory
+STEP 5 : n=Integer.parseInt(date)#inventory
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : DateValidity ob=new DateValidity()#inventory
+STEP 3 : ob.input()#inventory
+STEP 4 : ob.checkDate()#inventory
+STEP 5 : END

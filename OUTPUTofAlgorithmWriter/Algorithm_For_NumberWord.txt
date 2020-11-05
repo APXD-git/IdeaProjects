@@ -1,0 +1,52 @@
+                 -:Algorithm_For_NumberWord :- 
+----------------------------------------------------------------
+----------------------------------------------------------------
+Algorithm for convertAndPrint function : 
+
+STEP 1 : START
+STEP 2 : int l=no.length()-1#inventory
+STEP 3 : String oneP[]={"","ONE","TWO","THREE","FOUR","FIVE","SIX","SEVEN","EIGHT","NINE"}#inventory
+STEP 4 : String tenP[]={"","","TWENTY","THIRTY","FOURTY","FIFTY","SIXTY","SEVENTY","EIGHTY","NINTY"}#inventory
+STEP 5 : String excepP[]={"TEN","ELEVEN","TWELVE","THIRTEEN","FOURTEEN","FIFTEEN","SIXTEEN","SEVENTEEN","EIGHTEEN","NINTEEN"}#inventory
+STEP 6 : int i=0#inventory
+STEP 7 : while(l>=0){#inventory
+STEP 8 : if(l>=3 && no.charAt(i)!='0'){#inventory
+STEP 9 : if(l==4){#inventory
+STEP 10 : if( no.charAt(i)=='1'){#inventory
+STEP 11 : System.out.print(excepP[Integer.parseInt(no.charAt(++i)+"")] +" ")#inventory
+STEP 12 : else if(no.charAt(i+1)!='0'){#inventory
+STEP 13 : System.out.print( tenP[Integer.parseInt(no.charAt(i)+"")]+" "+ oneP[Integer.parseInt(no.charAt(++i)+"")]+" ")#inventory
+STEP 14 : else if( no.charAt(i+1)=='0'){#inventory
+STEP 15 : System.out.print(tenP[Integer.parseInt(no.charAt(i++)+"")]+ " ")#inventory
+STEP 16 : else#inventory
+STEP 17 : System.out.print(oneP[Integer.parseInt(no.charAt(i)+"")]+" ")#inventory
+STEP 18 : l--#inventory
+STEP 19 : System.out.print("THOUSAND ")#inventory
+STEP 20 : else if (l==2 && no.charAt(i)!='0')#inventory
+STEP 21 : System.out.print(oneP[Integer.parseInt(no.charAt(i)+"")] +" HUNDRED ")#inventory
+STEP 22 : else if(l==1 && no.charAt(i)!='0'){#inventory
+STEP 23 : if(no.length()>1)#inventory
+STEP 24 : System.out.print("AND ")#inventory
+STEP 25 : if(no.charAt(i)=='1'){#inventory
+STEP 26 : System.out.print(excepP[Integer.parseInt(no.charAt(++i)+"")]+ " ")#inventory
+STEP 27 : l--#inventory
+STEP 28 : else#inventory
+STEP 29 : System.out.print(tenP[Integer.parseInt(no.charAt(i)+"")]+" ")#inventory
+STEP 30 : else if(l==0  ){#inventory
+STEP 31 : System.out.print(oneP[Integer.parseInt(no.charAt(i)+"")])#inventory
+STEP 32 : i++#inventory
+STEP 33 : l--#inventory
+STEP 34 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : NumberWord ob=new NumberWord()#inventory
+STEP 3 : Scanner inn=new Scanner(System.in)#inventory
+STEP 4 : PRINT ( zero)
+STEP 5 : String number=inn.nextLine()#inventory
+STEP 6 : if(Integer.parseInt(number)==0)#inventory
+STEP 7 : PRINT (Zero)
+STEP 8 : else#inventory
+STEP 9 : ob.convertAndPrint(number)#inventory
+STEP 10 : END

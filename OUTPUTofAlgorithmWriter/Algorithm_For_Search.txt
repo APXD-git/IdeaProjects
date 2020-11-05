@@ -1,0 +1,26 @@
+                 -:Algorithm_For_Search :- 
+----------------------------------------------------------------
+----------------------------------------------------------------
+Algorithm for searchFor function : 
+
+STEP 1 : START
+STEP 2 : String wonders[]={"Great Wall of China","Christ the Redeemer Statue","Machu Picchu","Chichen Itza","Roman Colosseum","Taj Mahal","Petra"}#inventory
+STEP 3 : String  country[]={"china","Brazil","Peru","Mexico","Rome","India","Jordan"}#inventory
+STEP 4 : Scanner inn=new Scanner(System.in)#inventory
+STEP 5 : PRINT ( ln )
+STEP 6 : String cName=inn.nextLine()#inventory
+STEP 7 : int i=0,f=0#inventory
+STEP 8 : while(i<7){#inventory
+STEP 9 : if(cName.equalsIgnoreCase(country[i]))#inventory
+STEP 10 : {f=1#inventory
+STEP 11 : break#inventory
+STEP 12 : i++#inventory
+STEP 13 : System.out.println(f==1?"Search Found!! \nName of the wonder:"+wonders[i]+"\nCountry Name:"+cName:"Sorry Not Found")#inventory
+STEP 14 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Search ob=new Search()#inventory
+STEP 3 : ob.searchFor()#inventory
+STEP 4 : END

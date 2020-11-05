@@ -1,0 +1,91 @@
+                 -:Algorithm_For_Number :- 
+----------------------------------------------------------------
+STEP 1 : int f#inventory
+STEP 2 : int  s#inventory
+STEP 3 : int d#inventory
+STEP 4 : int n#inventory
+STEP 5 : int m#inventory
+STEP 6 : static Scanner inn=new Scanner(System.in)#inventory
+STEP 7 : END
+----------------------------------------------------------------
+Algorithm for input function : 
+
+STEP 1 : START
+STEP 2 : PRINT ( ln )
+STEP 3 : n=inn.nextInt()#inventory
+STEP 4 : m=n#inventory
+STEP 5 : END
+----------------------------------------------------------------
+Algorithm for krishnaNo function : 
+
+STEP 1 : START
+STEP 2 : input()#inventory
+STEP 3 : while(n>0){#inventory
+STEP 4 : d=n%10#inventory
+STEP 5 : n/=10#inventory
+STEP 6 : f=1#inventory
+STEP 7 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 8 : f*=j#inventory
+STEP 9 : s+=f#inventory
+STEP 10 : System.out.println(s==m?"It is a Krishnamurthy number":"It is not a Krishnamurthy number")#inventory
+STEP 11 : END
+----------------------------------------------------------------
+Algorithm for palindromeNo function : 
+
+STEP 1 : START
+STEP 2 : input()#inventory
+STEP 3 : while(n>0){#inventory
+STEP 4 : d=n%10#inventory
+STEP 5 : n/=10#inventory
+STEP 6 : s=s*10+d#inventory
+STEP 7 : System.out.println(s==m?"It is a palindrome number":"It is not a palindrome number")#inventory
+STEP 8 : END
+----------------------------------------------------------------
+Algorithm for perfectNo function : 
+
+STEP 1 : START
+STEP 2 : input()#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : if(n%i==0)#inventory
+STEP 5 : s+=i#inventory
+STEP 6 : System.out.println(s==m?"It is a perfect number":"It is not a perfect number")#inventory
+STEP 7 : END
+----------------------------------------------------------------
+Algorithm for neonNo function : 
+
+STEP 1 : START
+STEP 2 : input()#inventory
+STEP 3 : int r=n*n#inventory
+STEP 4 : while(r>0)#inventory
+STEP 5 : d=r%10#inventory
+STEP 6 : s=s+d#inventory
+STEP 7 : r=r/10#inventory
+STEP 8 : System.out.println(s==m?"It is a neon number":"It is not a neon number")#inventory
+STEP 9 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Number ob=new Number()#inventory
+STEP 3 : PRINT ( ln )
+STEP 4 : PRINT ( ln )
+STEP 5 : PRINT ( ln )
+STEP 6 : PRINT ( ln )
+STEP 7 : PRINT ( ln )
+STEP 8 : int c=inn.nextInt()#inventory
+STEP 9 : switch(c)#inventory
+STEP 10 : case 1:#inventory
+STEP 11 : ob.krishnaNo()#inventory
+STEP 12 : break#inventory
+STEP 13 : case 2:#inventory
+STEP 14 : ob.palindromeNo()#inventory
+STEP 15 : break#inventory
+STEP 16 : case 3:#inventory
+STEP 17 : ob.perfectNo()#inventory
+STEP 18 : break#inventory
+STEP 19 : case 4:#inventory
+STEP 20 : ob.neonNo()#inventory
+STEP 21 : break#inventory
+STEP 22 : default:#inventory
+STEP 23 : PRINT ( ln )
+STEP 24 : END

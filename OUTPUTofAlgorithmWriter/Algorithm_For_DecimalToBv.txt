@@ -1,0 +1,64 @@
+                 -:Algorithm_For_DecimalToBv :- 
+----------------------------------------------------------------
+STEP 1 : String n#inventory
+STEP 2 : END
+----------------------------------------------------------------
+Algorithm for decimalToBinary function : 
+
+STEP 1 : START
+STEP 2 : String bi=""#inventory
+STEP 3 : double fractional_part=Double.parseDouble(n.substring(n.indexOf('.')))#inventory
+STEP 4 : int c=0#inventory
+STEP 5 : int n=(int)Double.parseDouble(this.n)#inventory
+STEP 6 : while(n>0){#inventory
+STEP 7 : bi= n%2 + bi#inventory
+STEP 8 : n/=2#inventory
+STEP 9 : bi+='.'#inventory
+STEP 10 : while(fractional_part!=0.0 && c!=12){#inventory
+STEP 11 : fractional_part*=2#inventory
+STEP 12 : bi+=(int)fractional_part#inventory
+STEP 13 : if((int)fractional_part==1)#inventory
+STEP 14 : fractional_part-=1#inventory
+STEP 15 : c++#inventory
+STEP 16 : PRINT ( ln )
+STEP 17 : END
+----------------------------------------------------------------
+Algorithm for binaryToDecimal function : 
+
+STEP 1 : START
+STEP 2 : double sum=0#inventory
+STEP 3 : int j=0#inventory
+STEP 4 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 5 : sum+=(Math.pow(2,j)*Integer.parseInt(n.charAt(i)+""))#inventory
+STEP 6 : j++#inventory
+STEP 7 : j=1#inventory
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : sum+=(Math.pow(2,-j)*Integer.parseInt(n.charAt(i)+""))#inventory
+STEP 10 : j++#inventory
+STEP 11 : System.out.println("Decimal : "+sum)#inventory
+STEP 12 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : DecimalToBv ob=new DecimalToBv()#inventory
+STEP 3 : Scanner inn=new Scanner(System.in)#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : PRINT ( ln )
+STEP 6 : PRINT ( ln )
+STEP 7 : int c=inn.nextInt()#inventory
+STEP 8 : inn.nextLine()#inventory
+STEP 9 : switch(c)#inventory
+STEP 10 : case 1:#inventory
+STEP 11 : PRINT ( ln )
+STEP 12 : ob.n=inn.nextLine()#inventory
+STEP 13 : ob.binaryToDecimal()#inventory
+STEP 14 : break#inventory
+STEP 15 : case 2:#inventory
+STEP 16 : PRINT ( ln )
+STEP 17 : ob.n=inn.nextLine()#inventory
+STEP 18 : ob.decimalToBinary()#inventory
+STEP 19 : break#inventory
+STEP 20 : default:#inventory
+STEP 21 : PRINT ( ln )
+STEP 22 : END

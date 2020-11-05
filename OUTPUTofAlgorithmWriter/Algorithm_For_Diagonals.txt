@@ -1,0 +1,60 @@
+                 -:Algorithm_For_Diagonals :- 
+----------------------------------------------------------------
+STEP 1 : static Scanner inn=new Scanner(System.in)#inventory
+STEP 2 : int a[][]#inventory
+STEP 3 : int n#inventory
+STEP 4 : int e#inventory
+STEP 5 : int i#inventory
+STEP 6 : int j#inventory
+STEP 7 : END
+----------------------------------------------------------------
+Algorithm for input function : 
+
+STEP 1 : START
+STEP 2 : PRINT ( ln )
+STEP 3 : n=inn.nextInt()#inventory
+STEP 4 : e=inn.nextInt()#inventory
+STEP 5 : a=new int[n][e]#inventory
+STEP 6 : PRINT ( ln )
+STEP 7 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 8 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 9 : a[i][j]=inn.nextInt()#inventory
+STEP 10 : END
+----------------------------------------------------------------
+Algorithm for calculation function : 
+
+STEP 1 : START
+STEP 2 : int l=0,r=0#inventory
+STEP 3 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 4 : l=l+a[i][i]#inventory
+STEP 5 : int k=n-1#inventory
+STEP 6 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 7 : r=r+a[i][k]#inventory
+STEP 8 : k--#inventory
+STEP 9 : PRINT ( ln )
+STEP 10 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 11 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 12 : System.out.print(" ")#inventory
+STEP 13 : System.out.print(a[i][i])#inventory
+STEP 14 : k=n-1#inventory
+STEP 15 : PRINT ( ln )
+STEP 16 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 17 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 18 : System.out.print(" ")#inventory
+STEP 19 : System.out.print(a[i][k])#inventory
+STEP 20 : k--#inventory
+STEP 21 : System.out.println("The sum of the left diagonal is = "+l)#inventory
+STEP 22 : System.out.println("The sum of the right diagonal is = "+r)#inventory
+STEP 23 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Diagonals ob=new Diagonals()#inventory
+STEP 3 : ob.input()#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 6 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 7 : System.out.print(ob.a[i][j]+" ")#inventory
+STEP 8 : ob.calculation()#inventory
+STEP 9 : END

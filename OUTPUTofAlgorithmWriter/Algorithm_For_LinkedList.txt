@@ -1,0 +1,39 @@
+                 -:Algorithm_For_LinkedList :- 
+----------------------------------------------------------------
+STEP 1 : Node start#inventory
+STEP 2 : LinkedList insert(LinkedList list,int data){#inventory
+STEP 3 : Node newptr=new Node()#inventory
+STEP 4 : newptr.data=data#inventory
+STEP 5 : newptr.link=null#inventory
+STEP 6 : if(list.start==null)#inventory
+STEP 7 : start=newptr#inventory
+STEP 8 : else#inventory
+STEP 9 : Node save=list.start#inventory
+STEP 10 : while(save.link!=null){#inventory
+STEP 11 : save=save.link#inventory
+STEP 12 : save.link=newptr#inventory
+STEP 13 : return list#inventory
+STEP 14 : END
+----------------------------------------------------------------
+Algorithm for display function : 
+
+STEP 1 : START
+STEP 2 : Node newptr=new Node()#inventory
+STEP 3 : newptr=list.start#inventory
+STEP 4 : if(newptr==null)#inventory
+STEP 5 : PRINT  ("LIST IS EMPTY")
+STEP 6 : else#inventory
+STEP 7 : PRINT  ("Items in the list:")
+STEP 8 : while(newptr!=null){#inventory
+STEP 9 : PRINT  (newptr.data+" ")
+STEP 10 : newptr=newptr.link#inventory
+STEP 11 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : LinkedList list=new LinkedList()#inventory
+STEP 3 : list=list.insert(list,10)#inventory
+STEP 4 : list=list.insert(list,12)#inventory
+STEP 5 : list.display(list)#inventory
+STEP 6 : END

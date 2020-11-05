@@ -1,0 +1,48 @@
+                 -:Algorithm_For_Volume :- 
+----------------------------------------------------------------
+----------------------------------------------------------------
+Algorithm for volume function : 
+
+STEP 1 : START
+STEP 2 : double v=(22/7) * (r*r) *h#inventory
+STEP 3 : System.out.println("The volume of the cylinder is "+ v)#inventory
+STEP 4 : END
+----------------------------------------------------------------
+Algorithm for volume function : 
+
+STEP 1 : START
+STEP 2 : double v=((22/7)*(r*r)* h)/3#inventory
+STEP 3 : System.out.println("The volume of the cone is "+ v)#inventory
+STEP 4 : END
+----------------------------------------------------------------
+Algorithm for volume function : 
+
+STEP 1 : START
+STEP 2 : double v=(4/3)*(22/7)*(r*r*r)#inventory
+STEP 3 : System.out.println("The volume of the sphere is "+v)#inventory
+STEP 4 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Volume ob=new Volume()#inventory
+STEP 3 : Scanner inn=new Scanner(System.in)#inventory
+STEP 4 : double radius=0#inventory
+STEP 5 : PRINT ( ln )
+STEP 6 : radius=inn.nextDouble()#inventory
+STEP 7 : PRINT ( ln )
+STEP 8 : switch (inn.nextInt()){#inventory
+STEP 9 : case 1:#inventory
+STEP 10 : PRINT ( ln )
+STEP 11 : ob.volume(radius,inn.nextInt())#inventory
+STEP 12 : break#inventory
+STEP 13 : case 2:#inventory
+STEP 14 : PRINT ( ln )
+STEP 15 : ob.volume(radius,inn.nextDouble())#inventory
+STEP 16 : break#inventory
+STEP 17 : case 3:#inventory
+STEP 18 : ob.volume(radius)#inventory
+STEP 19 : break#inventory
+STEP 20 : default:#inventory
+STEP 21 : PRINT ( ln )
+STEP 22 : END

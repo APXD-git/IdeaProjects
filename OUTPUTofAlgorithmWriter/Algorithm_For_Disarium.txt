@@ -1,0 +1,44 @@
+                 -:Algorithm_For_Disarium :- 
+----------------------------------------------------------------
+STEP 1 : int num#inventory
+STEP 2 : int size #inventory
+STEP 3 : Disarium(int nm){#inventory
+STEP 4 : num=nm#inventory
+STEP 5 : size=0#inventory
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for countDigits function : 
+
+STEP 1 : START
+STEP 2 : size=(num+"").length()#inventory
+STEP 3 : END
+----------------------------------------------------------------
+Algorithm for sumOfDigits function : 
+
+STEP 1 : START
+STEP 2 : if(n==0)#inventory
+STEP 3 : return p#inventory
+STEP 4 : else{#inventory
+STEP 5 : p+=  Math.pow(n%10,size--)#inventory
+STEP 6 : return sumOfDigits(n/10,p)#inventory
+STEP 7 : END
+----------------------------------------------------------------
+Algorithm for check function : 
+
+STEP 1 : START
+STEP 2 : if(sumOfDigits(num,0)==num)#inventory
+STEP 3 : PRINT  ("It is a disarium number")
+STEP 4 : else#inventory
+STEP 5 : PRINT  ("It is not a disarium number")
+STEP 6 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : PRINT  ("Enter the number")
+STEP 4 : int n=inn.nextInt()#inventory
+STEP 5 : Disarium ob=new Disarium(n)#inventory
+STEP 6 : ob.countDigits()#inventory
+STEP 7 : ob.check()#inventory
+STEP 8 : END

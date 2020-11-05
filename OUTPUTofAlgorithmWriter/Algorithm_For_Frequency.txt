@@ -1,0 +1,37 @@
+                 -:Algorithm_For_Frequency :- 
+----------------------------------------------------------------
+STEP 1 : String s#inventory
+STEP 2 : String word[]#inventory
+STEP 3 : END
+----------------------------------------------------------------
+Algorithm for findAndDisplayFrequency function : 
+
+STEP 1 : START
+STEP 2 : StringTokenizer st=new StringTokenizer(s," ")#inventory
+STEP 3 : word=new String[st.countTokens()]#inventory
+STEP 4 : int i=0#inventory
+STEP 5 : while(st.hasMoreTokens()){#inventory
+STEP 6 : word[i++]=st.nextToken()#inventory
+STEP 7 : int c=0#inventory
+STEP 8 : PRINT ( ln )
+STEP 9 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 10 : if(!word[j].equals(""))#inventory
+STEP 11 : Repeat from STEP __ through STEP __ till i becomes ___
+STEP 12 : if(word[j].equalsIgnoreCase(word[k]) ){#inventory
+STEP 13 : if(c>=1)#inventory
+STEP 14 : word[k]=""#inventory
+STEP 15 : c++#inventory
+STEP 16 : if(!word[j].equals(""))#inventory
+STEP 17 : System.out.println(word[j]+"\t:\t"+ c)#inventory
+STEP 18 : c=0#inventory
+STEP 19 : END
+----------------------------------------------------------------
+Algorithm for main function : 
+
+STEP 1 : START
+STEP 2 : Scanner inn=new Scanner(System.in)#inventory
+STEP 3 : Frequency ob=new Frequency()#inventory
+STEP 4 : PRINT ( ln )
+STEP 5 : ob.s=inn.nextLine()#inventory
+STEP 6 : ob.findAndDisplayFrequency()#inventory
+STEP 7 : END
